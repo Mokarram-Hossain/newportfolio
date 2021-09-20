@@ -1,0 +1,48 @@
+
+/* normal desktop 1200px */
+@media (min-width:1200px) and (max-width:1500px){
+
+}
+
+/* normal desktop 992px */
+@media (min-width:992px) and (max-width:1200px){
+    
+}
+
+/* tablet desktop 768px */
+@media (min-width:768px) and (max-width:991px){
+    .banner-img::before{
+        display: none;
+        visibility: hidden;
+    }
+    
+}
+
+/* small mobile 320px */
+@media (max-width:768px){
+    .banner-img::before{
+        display: none;
+        visibility: hidden;
+    }
+    .banner-content h2{
+        font-size: 40px;
+    }
+    .abt-img img{
+        display: none;
+    }
+    header .bar-icon{
+        display:block;
+        visibility: visible;
+    }
+    header .menu{
+        display: none;
+    }
+}
+
+/* large mobile 480px */
+@media only screen and (min-width:480px) and (max-width:767px){
+    .banner-content h2{
+        font-size: 40px;
+       
+    }
+}
